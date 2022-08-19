@@ -1,0 +1,207 @@
+1. Write a java program to take radius and print area of circle
+
+package com.java;
+
+public class AreaCircle {
+	public static void main(String args[]) {
+	float pi=3.14f;
+	float r=5;
+	float area=pi *r*r;
+  System.out.println("The area of circle is " +area);
+ }
+
+}
+
+
+The area of circle is 78.5
+
+
+2. Write a Java program to convert temperature from Fahrenheit to Celsius degree.
+
+package com.java;
+
+public class FarToCel {
+	public static void main(String args[]) {
+		int fer=-40;
+		int cel;
+		cel=5*(fer-32)/9;
+		System.out.println("The farenhite temperature is "+fer);
+		
+	}
+
+}
+
+
+The farenhite temperature is -40
+
+
+
+3. Write a Java program that takes a number in inches, converts it to meters.
+
+
+package com.java;
+
+public class IncToMeter {
+ public static void main(String args[]) {
+	 float inch=10;
+	 float meter;
+	 meter=inch * 0.0254f;
+	 System.out.println("Meter = "+meter);
+ }
+}
+
+Meter = 0.254
+
+=========================================================
+1.
+public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        boolean b = true;
+         
+        b++;
+         
+        System.out.println(b);
+    }
+}
+
+2.
+
+public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int i=1, j=2, k=3;
+         
+        int m = i-- - j-- - k--;
+         
+        System.out.println("i="+i);
+        System.out.println("j="+j);
+        System.out.println("k="+k);
+        System.out.println("m="+m);
+    }
+} 
+
+3.
+
+public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int a=1, b=2;
+         
+        System.out.println(--b - ++a + ++b - --a);
+    }
+}
+
+4.
+
+public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int i=19, j=29, k;
+         
+        k = i-- - i++ + --j - ++j + --i - j-- + ++i - j++;
+         
+        System.out.println("i="+i);
+        System.out.println("j="+j);
+        System.out.println("k="+k);
+    }
+}
+
+5.
+
+public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int i = 11;
+         
+        int j = --(i++);
+    }
+}
+
+6. 
+
+public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int m = 0, n = 0;
+         
+        int p = --m * --n * n-- * m--;
+         
+        System.out.println(p);
+    }
+}
+
+7.
+
+Dharna12:51 PM
+public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int a=1;
+         
+        a = a++ + ++a * --a - a--;
+         
+        System.out.println(a);
+    }
+}
+
+8.
+
+public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int m=1010, n=1010;
+         
+        System.out.println(m++ / ++n * n-- / --m); 
+    }
+}
+
+
+9.
+
+public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int x = 001, y=010, z=100;
+         
+        int i = --x + y++ - z-- - --z + ++y - --x + y-- - --x;
+         
+        System.out.println("x="+x);
+        System.out.println("y="+y);
+        System.out.println("z="+z);
+        System.out.println("i="+i);
+    }
+}
+
+
+
+
+1. Error
+
+2. i=0, j=1, k=2, m=-4;
+
+3. 0;
+
+4. i=19 j=29 k=-20
+
+5. Unresolved compilation problem: 
+	Invalid argument to operation ++/--
+6. 1
+
+7. 5
+
+8. 0
+
+9. x=-2 y=9 z=98 i=-167
+
+
+
